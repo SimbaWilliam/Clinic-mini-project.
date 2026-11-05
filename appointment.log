@@ -1,0 +1,39 @@
+
+[log] opened
+register patient #1: SUCCESS
+register patient #2: SUCCESS
+register patient #3: SUCCESS
+register Doctor #10: SUCCESS
+register Nurse #11: SUCCESS
+register Pharmacist #12: SUCCESS
+register Doctor and Lecturer #6: SUCCESS
+appointment #1000 CREATED: Hulengende, Dr Trinity, hour 10, PENDING
+book Hulengende with Dr Trinity at hour 10: SUCCESS
+appointment #1000 CANCELLED: bumped by emergency booking
+appointment #1001 CREATED: Rudo, Dr Trinity, hour 10, PENDING
+book Rudo with Dr Trinity at hour 10: SUCCESS
+appointment #1002 CREATED: Kundai, Nurse Dube, hour 12, PENDING
+book Kundai with Nurse Dube at hour 12: SUCCESS
+confirm appointment #1002: SUCCESS
+FAILED book Rudo with Nurse Dube at hour 12: Emergency booking cannot bump a CONFIRMED appointment.
+FAILED cancel appointment #1002: too late: confirmed appointments need 2 hours' notice.
+[log] closed
+[log] opened
+register patient #1: SUCCESS
+register patient #2: SUCCESS
+register patient #3: SUCCESS
+register Doctor #10: SUCCESS
+register Nurse #11: SUCCESS
+register Pharmacist #12: SUCCESS
+register Doctor and Lecturer #6: SUCCESS
+appointment #1000 CREATED: Hulengende, Dr Trinity, hour 10, PENDING
+book Hulengende with Dr Trinity at hour 10: SUCCESS
+appointment #1000 CANCELLED: bumped by emergency booking
+appointment #1001 CREATED: Rudo, Dr Trinity, hour 10, PENDING
+book Rudo with Dr Trinity at hour 10: SUCCESS
+appointment #1002 CREATED: Kundai, Nurse Dube, hour 12, PENDING
+book Kundai with Nurse Dube at hour 12: SUCCESS
+confirm appointment #1002: SUCCESS
+FAILED book Rudo with Nurse Dube at hour 12: Emergency booking cannot bump a CONFIRMED appointment.
+FAILED cancel appointment #1002: too late: confirmed appointments need 2 hours' notice.
+[log] closed
